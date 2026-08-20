@@ -6,7 +6,6 @@ import { siteConfig, galleryImages } from '../data/siteData';
 
 const categories = [
   { id: 'all', name: 'All' },
-  { id: 'facility', name: 'Facility' },
   { id: 'rooms', name: 'Rooms' },
   { id: 'activities', name: 'Activities' },
 ];
@@ -41,7 +40,7 @@ function Gallery() {
     <>
       {/* Hero */}
       <section className="relative pt-40 pb-20 bg-gradient-to-br from-primary-600 to-primary-700 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.15),transparent_60%)]" />
         <div className="container-custom relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
