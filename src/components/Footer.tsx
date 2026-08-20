@@ -55,7 +55,7 @@ function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-16 h-16 rounded-xl bg-white flex items-center justify-center shadow-md overflow-hidden">
-                <img src="/favicon.svg" alt="Shree Ram Nasha Mukti Kendra logo" className="w-full h-full object-cover" />
+                <img src="/ChatGPT_Image_Aug_20,_2026,_09_29_36_PM.png" alt="Shree Ram Nasha Mukti Kendra logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h3 className="font-poppins font-bold text-lg text-white">

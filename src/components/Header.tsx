@@ -77,7 +77,7 @@ function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-14 h-14 rounded-xl bg-white flex items-center justify-center group-hover:scale-105 transition-transform shadow-md overflow-hidden">
-              <img src="/favicon.svg" alt="Shree Ram Nasha Mukti Kendra logo" className="w-full h-full object-cover" />
+              <img src="/ChatGPT_Image_Aug_20,_2026,_09_29_36_PM.png" alt="Shree Ram Nasha Mukti Kendra logo" className="w-full h-full object-contain" />
             </div>
             <div className="hidden sm:block">
               <h1 className="font-poppins font-bold text-lg text-gray-900 leading-tight">
